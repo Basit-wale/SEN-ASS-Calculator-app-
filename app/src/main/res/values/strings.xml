@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SEN Calculator</string>
+    <string name="subtitle">Simple · Elegant · Numeric</string>
+
+    <!-- Labels -->
+    <string name="label_first_number">First Number</string>
+    <string name="label_second_number">Second Number</string>
+    <string name="label_operation">Choose Operation</string>
+    <string name="label_result">Result</string>
+
+    <!-- Hints -->
+    <string name="hint_number1">Enter first number</string>
+    <string name="hint_number2">Enter second number</string>
+
+    <!-- Buttons -->
+    <string name="btn_add">＋  Add</string>
+    <string name="btn_subtract">－  Subtract</string>
+    <string name="btn_multiply">×  Multiply</string>
+    <string name="btn_divide">÷  Divide</string>
+
+    <!-- Result / Errors -->
+    <string name="result_placeholder">Result will appear here</string>
+    <string name="error_both_empty">⚠ Please enter both numbers.</string>
+    <string name="error_first_empty">⚠ Please enter the first number.</string>
+    <string name="error_second_empty">⚠ Please enter the second number.</string>
+    <string name="error_invalid_number">⚠ Invalid number format entered.</string>
+    <string name="error_divide_by_zero">⚠ Cannot divide by zero!</string>
+</resources>

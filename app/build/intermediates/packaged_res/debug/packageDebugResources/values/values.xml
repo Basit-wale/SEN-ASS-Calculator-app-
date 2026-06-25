@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F0F4F8</color>
+    <color name="btn_add">#2E7D32</color>
+    <color name="btn_divide">#6A1B9A</color>
+    <color name="btn_multiply">#E65100</color>
+    <color name="btn_subtract">#C62828</color>
+    <color name="input_border">#D0D8E8</color>
+    <color name="input_border_focused">#1565C0</color>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#90CAF9</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_hint">#AABBD0</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7A99</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">SEN Calculator</string>
+    <string name="btn_add">＋  Add</string>
+    <string name="btn_divide">÷  Divide</string>
+    <string name="btn_multiply">×  Multiply</string>
+    <string name="btn_subtract">－  Subtract</string>
+    <string name="error_both_empty">⚠ Please enter both numbers.</string>
+    <string name="error_divide_by_zero">⚠ Cannot divide by zero!</string>
+    <string name="error_first_empty">⚠ Please enter the first number.</string>
+    <string name="error_invalid_number">⚠ Invalid number format entered.</string>
+    <string name="error_second_empty">⚠ Please enter the second number.</string>
+    <string name="hint_number1">Enter first number</string>
+    <string name="hint_number2">Enter second number</string>
+    <string name="label_first_number">First Number</string>
+    <string name="label_operation">Choose Operation</string>
+    <string name="label_result">Result</string>
+    <string name="label_second_number">Second Number</string>
+    <string name="result_placeholder">Result will appear here</string>
+    <string name="subtitle">Simple · Elegant · Numeric</string>
+    <style name="Theme.SENCalculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.sen.calculator.app-debug-31:/drawable_button_background.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.sen.calculator.app-main-33:/drawable/button_background.xml"
+    },
+    {
+        "merged": "/home/codespace/.gradle/daemon/8.4/com.sen.calculator.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "/home/codespace/.gradle/daemon/8.4/com.sen.calculator.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.sen.calculator.app-debug-31:/drawable_input_background.xml.flat",
+        "source": "com.sen.calculator.app-main-33:/drawable/input_background.xml"
+    }
+]

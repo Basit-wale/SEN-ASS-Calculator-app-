@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_light">#90CAF9</color>
+    <color name="primary_dark">#0D47A1</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F0F4F8</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7A99</color>
+    <color name="text_hint">#AABBD0</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Operation Buttons -->
+    <color name="btn_add">#2E7D32</color>
+    <color name="btn_subtract">#C62828</color>
+    <color name="btn_multiply">#E65100</color>
+    <color name="btn_divide">#6A1B9A</color>
+
+    <!-- Input border -->
+    <color name="input_border">#D0D8E8</color>
+    <color name="input_border_focused">#1565C0</color>
+</resources>
