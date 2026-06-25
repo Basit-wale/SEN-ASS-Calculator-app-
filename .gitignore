@@ -1,0 +1,15 @@
+# Android SDK and tools
+commandlinetools*.zip
+android-sdk/
+
+# Gradle build outputs
+.gradle/
+app/build/
+build/
+
+# Local config
+local.properties
+
+# IDE
+.idea/
+*.iml
