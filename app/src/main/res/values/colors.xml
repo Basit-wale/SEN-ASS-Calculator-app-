@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand -->
-    <color name="primary">#1565C0</color>
-    <color name="primary_light">#90CAF9</color>
-    <color name="primary_dark">#0D47A1</color>
-
-    <!-- Backgrounds -->
-    <color name="background">#F0F4F8</color>
-    <color name="surface">#FFFFFF</color>
-
-    <!-- Text -->
-    <color name="text_primary">#1A1A2E</color>
-    <color name="text_secondary">#6B7A99</color>
-    <color name="text_hint">#AABBD0</color>
+    <color name="bg_dark">#0A0A1A</color>
+    <color name="glass_bg">#22193A</color>
+    <color name="glass_border">#6C3FC5</color>
+    <color name="neon_purple">#B94FFF</color>
+    <color name="neon_purple_light">#D98AFF</color>
+    <color name="neon_cyan">#00F5FF</color>
+    <color name="neon_pink">#FF2D8B</color>
+    <color name="neon_green">#00FF9F</color>
     <color name="white">#FFFFFF</color>
-
-    <!-- Operation Buttons -->
-    <color name="btn_add">#2E7D32</color>
-    <color name="btn_subtract">#C62828</color>
-    <color name="btn_multiply">#E65100</color>
-    <color name="btn_divide">#6A1B9A</color>
-
-    <!-- Input border -->
-    <color name="input_border">#D0D8E8</color>
-    <color name="input_border_focused">#1565C0</color>
+    <color name="num_btn_bg">#1E1535</color>
+    <color name="op_btn_bg">#2D1B5E</color>
+    <color name="sci_btn_bg">#150F2A</color>
+    <color name="equal_btn_bg">#7B2FFF</color>
+    <color name="clear_btn_bg">#FF2D8B</color>
+    <color name="mem_btn_bg">#0F1A2E</color>
+    <color name="primary">#B94FFF</color>
+    <color name="primary_dark">#7B2FFF</color>
 </resources>

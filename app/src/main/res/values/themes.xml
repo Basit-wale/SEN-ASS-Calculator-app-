@@ -1,10 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.SENCalculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/primary</item>
+    <style name="Theme.SENCalculator" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/neon_purple</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="android:windowBackground">@color/background</item>
-        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+    <style name="NumBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/num_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/glass_border</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="OpBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/neon_cyan</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/op_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/neon_cyan</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="SciBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/neon_purple_light</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:backgroundTint">@color/sci_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">14dp</item>
+        <item name="strokeColor">@color/neon_purple</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:paddingStart">2dp</item>
+        <item name="android:paddingEnd">2dp</item>
+    </style>
+    <style name="FuncBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/neon_green</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:backgroundTint">@color/sci_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/neon_green</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="EqualBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/equal_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="ClearBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:backgroundTint">@color/clear_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">0dp</item>
+    </style>
+    <style name="MemBtn" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textColor">@color/neon_pink</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:backgroundTint">@color/mem_btn_bg</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="strokeColor">@color/neon_pink</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="android:elevation">0dp</item>
     </style>
 </resources>
